@@ -4,7 +4,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const addBtn             = document.querySelector("#new-toy-btn");
   const toyFormContainer   = document.querySelector(".container");
   const toyForm            = document.querySelector(".add-toy-form");
-  const toyCollection      = document.querySelector("#toy-collection");
 
   // Toggle the new-toy form
   addBtn.addEventListener("click", () => {
